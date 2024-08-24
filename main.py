@@ -1,10 +1,12 @@
 import os
 import argparse
 
+# Change this manually according to your needs!
+
 ignore_map = {
-    "python": ["__pycache__", ".venv", ".env", ".pytest_cache", ".mypy_cache", ".vscode", ".idea"],
-    "nextjs": ["node_modules", ".next", "out", ".env", ".vscode", ".idea"],
-    "nodejs": ["node_modules", ".env", ".vscode", ".idea"],
+    "python": ["__pycache__", ".venv", ".env", ".pytest_cache", ".mypy_cache", ".vscode", ".idea",  ".git"],
+    "nextjs": ["node_modules", ".next", "out", ".env", ".vscode", ".idea", ".git"],
+    "nodejs": ["node_modules", ".env", ".vscode", ".idea",  ".git"],
     "express": ["node_modules", ".env", ".vscode", ".idea"],
     "flutter": ["build", ".dart_tool", ".vscode", ".idea"],
     "django": ["__pycache__", "venv", ".env", "db.sqlite3", "staticfiles", ".vscode", ".idea"],
