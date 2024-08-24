@@ -52,7 +52,7 @@ cd FileStructureGenerator
 To generate the file structure for a given project:
 
 ```bash
-python generate_file_structure.py --source=/path/to/your/project --type=nextjs --depth=3
+python main.py --source=/path/to/your/project --type=nextjs --depth=3
 ```
 
 ### Arguments
