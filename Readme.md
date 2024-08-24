@@ -63,7 +63,7 @@ python generate_file_structure.py --source=/path/to/your/project --type=nextjs -
 
 ### Example Output
 
-\`\`\`bash
+```bash
 📁 my-react-app
     📂 src
         📂 components
@@ -76,7 +76,7 @@ python generate_file_structure.py --source=/path/to/your/project --type=nextjs -
         📄 favicon.ico
     📄 package.json
     📄 README.md
-\`\`\`
+```
 
 ## Contributing
 
