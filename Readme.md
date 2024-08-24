@@ -42,18 +42,18 @@ The following project types are supported:
 
 Clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/HarshitKumar9030/FileStructureGenerator.git
 cd FileStructureGenerator
-\`\`\`
+```
 
 ## Usage
 
 To generate the file structure for a given project:
 
-\`\`\`bash
+```bash
 python generate_file_structure.py --source=/path/to/your/project --type=nextjs --depth=3
-\`\`\`
+```
 
 ### Arguments
 
