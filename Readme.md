@@ -57,9 +57,9 @@ python main.py --source=/path/to/your/project --type=nextjs --depth=3
 
 ### Arguments
 
-- \`--source\`: Path to the source directory (required).
-- \`--type\`: Type of the project (required). Available options include: \`python\`, \`nextjs\`, \`nodejs\`, \`express\`, \`flutter\`, and many others.
-- \`--depth\`: Maximum depth of the file structure (optional). Default is unlimited.
+- `--source`: Path to the source directory (required).
+- `--type`: Type of the project (required). Available options include: `python`, `nextjs`, `nodejs`, `express`, `flutter`, and many others.
+- `--depth`: Maximum depth of the file structure (optional). Default is unlimited.
 
 ### Example Output
 
@@ -83,9 +83,9 @@ python main.py --source=/path/to/your/project --type=nextjs --depth=3
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/your-feature\`)
-3. Commit your changes (\`git commit -m 'Add some feature'\`)
-4. Push to the branch (\`git push origin feature/your-feature\`)
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a pull request
 
 ## License
